@@ -1,0 +1,86 @@
+*{
+    margin: 2px 2px;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(37, 35, 35);
+    padding: 23px 5px;
+    border-radius: 8px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 10px 50px;
+    color: white;
+    font-size: 18px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 5px 93px;
+}
+.biography{
+    padding: 66px 38px;
+    margin: 23px 59px;
+}
+.biography h1{
+    margin: 50px 1px;
+}
+.profilepic{
+    margin: 14px 2px;
+}
+.profilepic img{
+    height: 80%;
+    width: 50%;
+    margin: 38px 200px;
+}
+.middle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px;
+}
+.interest{
+    width: 30%;
+    height: 100%;
+    margin: 0px 230px;
+}
+.interest ul li{
+    list-style: none;
+    margin: 11px 2px;
+}
+.skills{
+    margin: 0px 1px;
+}
+.skills ul li{
+    list-style: none;
+    margin: 11px 2px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px;
+}
+.achievements{
+    width: 417px;
+    margin: 0px 215px;
+}
+.frame{
+    width: 420px;
+    height: 315px;
+}
+.footer{
+    background-color: black;
+}
+.footer p{
+    color: white;
+    font-size: 0.8rem;
+    margin: 2px 5px;
+}
